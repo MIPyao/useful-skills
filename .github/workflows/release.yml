@@ -1,0 +1,42 @@
+name: Release Skills
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Package vidwise skill
+        run: |
+          SKILL_NAME="vidwise"
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          
+          # Create zip package
+          zip -r "${SKILL_NAME}-${VERSION}.zip" "skills/${SKILL_NAME}" \
+            -x "skills/${SKILL_NAME}/node_modules/*" \
+            -x "skills/${SKILL_NAME}/.git/*"
+          
+          # Create SHA-256 checksum
+          shasum -a 256 "${SKILL_NAME}-${VERSION}.zip" > "${SKILL_NAME}-${VERSION}.zip.sha256"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "${{ github.event.repository.name }} v${{ steps.version.outputs.VERSION }}"
+          files: |
+            vidwise-*.zip
+            vidwise-*.zip.sha256
+          generate_release_notes: true

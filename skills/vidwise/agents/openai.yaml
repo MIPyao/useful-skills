@@ -1,0 +1,3 @@
+display_name: Vidwise Skill
+short_description: Turn scripts and articles into click-driven web presentations
+default_prompt: Help me turn this article into a web video presentation.

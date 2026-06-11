@@ -1,0 +1,19 @@
+{
+  "name": "useful-skills",
+  "owner": {
+    "name": "MIPyao"
+  },
+  "metadata": {
+    "description": "A curated collection of agent skills for web video presentations and demonstrations.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vidwise-skills",
+      "description": "Skills for click-driven web video presentations and screen-recorded explainers.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/vidwise"]
+    }
+  ]
+}
