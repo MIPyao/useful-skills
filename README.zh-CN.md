@@ -24,6 +24,8 @@
 **类别：** 网页视频 / 演示工程  
 **适合：** 把口播稿、文章、课程、产品演示和 talk 做成视频（网页模拟）。
 
+![vidwise 示例](./assets/vidwise-example.png)
+
 `vidwise` 用于构建适合录屏的 Vite + React + TypeScript 演示。它会把原始文章转成口播稿，把口播节拍映射成全屏视觉 step，在关键节点暂停让用户确认，并可在视觉 outline 确认后选择性合成口播音频。
 
 亮点：

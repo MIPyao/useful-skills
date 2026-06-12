@@ -24,6 +24,8 @@
 **Category:** Web Video / Presentation Engineering  
 **Use case:** Turn scripts, articles, lessons, product demos, and talks into videos (simulated as web pages).
 
+![vidwise example](./assets/vidwise-example.png)
+
 `vidwise` builds screen-recordable Vite + React + TypeScript presentations. It converts raw articles into narration scripts, maps narration beats to full-screen visual steps, pauses at key checkpoints for user confirmation, and optionally synthesizes narration audio after visual outline approval.
 
 Highlights:
