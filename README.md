@@ -2,7 +2,7 @@
 
 **MIPyao's open-source Agent Skills collection for Claude Code, Cursor, Codex, and all AI coding agents that support the `SKILL.md` format.**
 
-[![Vidwise Skill](https://img.shields.io/badge/skills-1-orange)](#skills-gallery) [![License: MIT](https://img.shields.io/github/license/MIPyao/useful-skills?style=flat-square&color=blue)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
+[![skills.sh](https://skills.sh/b/MIPyao/useful-skills)](https://skills.sh/MIPyao/useful-skills) [![Vidwise Skill](https://img.shields.io/badge/skills-1-orange)](#skills-gallery) [![License: MIT](https://img.shields.io/github/license/MIPyao/useful-skills?style=flat-square&color=blue)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md)
 

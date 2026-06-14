@@ -2,7 +2,7 @@
 
 **MIPyao 的开源 Agent Skills 集合，面向 Claude Code、Cursor、Codex 等所有支持 `SKILL.md` 格式的 AI 编程代理。**
 
-[![Vidwise Skill](https://img.shields.io/badge/skills-1-orange)](#skills-gallery) [![License: MIT](https://img.shields.io/github/license/MIPyao/useful-skills?style=flat-square&color=blue)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#贡献)
+[![skills.sh](https://skills.sh/b/MIPyao/useful-skills)](https://skills.sh/MIPyao/useful-skills) [![Vidwise Skill](https://img.shields.io/badge/skills-1-orange)](#skills-gallery) [![License: MIT](https://img.shields.io/github/license/MIPyao/useful-skills?style=flat-square&color=blue)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#贡献)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md)
 
